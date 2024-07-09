@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        #main {
+            padding: 30px;
+        }
+        #main img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #35424a;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>自己紹介ページ</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">自己紹介</a></li>
+                    <li><a href="#contact">連絡先</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="showcase">
+        <div class="container">
+            <h1>ようこそ！</h1>
+            <p>私のウェブページへようこそ。</p>
+        </div>
+    </section>
+    <div id="main" class="container">
+        <section id="about">
+            <h2>自己紹介</h2>
+            <img src="your-photo.jpg" alt="Your Photo">
+            <p>こんにちは、私は[あなたの名前]です。<br> [あなたの仕事や趣味についての簡単な紹介文]。</p>
+        </section>
+        <section id="contact">
+            <h2>連絡先</h2>
+            <p>Email: your-email@example.com</p>
+            <p>Phone: 090-1234-5678</p>
+        </section>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2024 自己紹介ページ</p>
+    </footer>
+</body>
+</html>
